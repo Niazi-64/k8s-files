@@ -18,7 +18,7 @@ spec:
       - name: my-registry 
       containers:
       - name: nginx
-        image: nginx-k8s-demo:17
+        image: niazi32/nginx-k8s-demo:17
         ports:
         - containerPort: 80
 ---
