@@ -16,7 +16,9 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:1.14.2
+        image: nginx-k8s-demo:17
+        imagePullSecrets:
+      - name: my-registry 
         ports:
         - containerPort: 80
 ---
